@@ -1,4 +1,40 @@
 # Sign up form
+<h1>V1.4.5</h1>
+<ul>
+<li> Edit minor CSS styling
+</li>
+</ul>
+
+<h1>V1.4.4</h1>
+<ul>
+<li> Fix photo credit spacing
+</li>
+</ul>
+
+<h1>V1.4.3</h1>
+<ul>
+<li> Add photo credit background
+</li>
+</ul>
+
+<h1>V1.4.2</h1>
+<ul>
+<li> Edit HTML text wording
+</li>
+</ul>
+
+<h1>V1.4.1</h1>
+<ul>
+<li> Fix minor JS changes
+</li>
+</ul>
+
+<h1>V1.4.0</h1>
+<ul>
+<li> Add JS 
+</li>
+</ul>
+
 <h1>V1.3.2</h1>
 <ul>
 <li> Adjust photo credit

@@ -7,50 +7,7 @@
     --button-green: #596D48;
     --light-border: #E5E7EB;
   }
-  
-  /* reset start */
-  
-  *,
-  *::after,
-  *::before {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    line-height: 1.5;
-  }
-  
-  img,
-  picture,
-  video,
-  canvas,
-  svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  input,
-  button,
-  textarea,
-  select {
-    font: inherit;
-  }
-  
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    overflow-wrap: break-word;
-  }
-  
-  /* reset end */
-  
-  
+
   body {
     height: 100vh;
     display: flex;
@@ -89,15 +46,13 @@
     width: auto;
   }
   
-  /* Can't fix the spacing on the photo credits for some reason. */
+
   .image-credits,
   .image-credits a,
   .image-credits a:active {
     color: rgba(255, 255, 255, 0.9);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(76, 74, 74, 0.7);
     color: white;
-    align-items: center;
-    display: flex;
   }
   
   main {
@@ -185,8 +140,8 @@
   }
   
   form button[type="submit"] {
-    background-color: var(--button-green);
-    color: var(--light-border);
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
     padding: 1rem 3rem;
     font-weight: bold;
     margin-top: 30px;
@@ -199,13 +154,13 @@
   }
   
   .log-in a {
-    color: var(--button-green);
+    color: goldenrod;
     text-decoration: none;
     font-weight: bold;
   }
   
   .log-in a:active {
-    color: var(--button-green);
+    color: rgb(224, 213, 155);
   }
   
   #passwords {
@@ -218,3 +173,49 @@
     color: red;
     font-size: 0.75rem;
   }
+
+  
+  /* reset start */
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+  }
+  
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* reset end */
+  
+  
+  
